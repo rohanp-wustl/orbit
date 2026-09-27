@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DEFERRED for the free-tier MVP: intentionally empty. A free Apple ID's
+     "Personal Team" cannot sign App Groups, Push Notifications, or Sign in
+     with Apple (see docs/PUSH_AND_WIDGET_PLAN.md) — adding any of those
+     capabilities back here before you have a paid Apple Developer account
+     will make Xcode fail to sign the app at all. Xcode may not even
+     generate this file for a build with zero capabilities enabled; that's
+     fine, delete it once the real project exists if so. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+</dict>
+</plist>

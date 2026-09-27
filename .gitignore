@@ -1,0 +1,22 @@
+# --- Secrets (never commit) ---
+OrbitApp/Shared/Services/Secrets.swift
+.env
+.env.*
+!.env.example
+supabase/.env
+
+# --- Xcode ---
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcscmblueprint
+*.xccheckout
+.swiftpm/
+Package.resolved.orig
+
+# --- macOS ---
+.DS_Store
+
+# --- Agent ---
+agent/node_modules/
